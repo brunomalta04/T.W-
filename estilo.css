@@ -1,0 +1,199 @@
+/* Remover padrão de página para que o fundo seja preenchido como eu bem entender */
+body {
+    margin: 0; 
+    padding: 0; 
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #343434; 
+    padding: 20px; 
+    width: 100%; 
+    box-sizing: border-box; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content:center; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255); 
+    margin-right: 100px;
+    border-radius: 20px; 
+    padding: 10px 15px;
+}
+
+/*transição para: HOME, PRODUTOS, CONTATO e SOBRE*/
+nav ul li a:hover {
+    background-color: black; 
+    color: #DAA520; 
+    transition: color 0.3s; 
+
+}
+
+/*arrumando a posição do fundo1 */
+.fundo1 {
+    background-size: cover; 
+    background-position: center; 
+    height: 480px;
+    background-color: #090909;
+}
+
+.fundo1 img {
+    width: 100%; 
+    height: auto; 
+}
+
+/*estilizando os textos de h1 e p*/
+.tudo{
+    background-color:#090909;
+}
+
+.titulo h1 {
+    height: 100px;
+    font-size: 30px;
+    line-height: 100px;
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+.C1 {
+    max-width: 500px; /* Define a largura máxima da caixa */
+    background-color:#090909;
+    margin: auto;
+}
+
+.C1 p {
+    font-size: 20px;
+    line-height: 20px;
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+/* contato */
+.contato {
+    background-color: #090909;
+    display: flex; 
+
+}
+
+.contato p {
+    background-color: #090909; 
+    padding: 20px; 
+    width: 100%; 
+    box-sizing: border-box; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    color: white;
+    
+}
+
+/*arrumando o txt*/
+.txt{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+
+/*Aqui vamos estilizar os produtos, por isso um espaçamento maior*/
+
+.corpo2{
+    background-color: #090909;
+}
+
+.h2{
+    color: white;
+    text-align: center;
+}
+
+/*padronizando os produtos*/
+.produto img{
+    width: 50%; 
+    height: auto; 
+}
+
+.conjunto{
+    color: white;
+    font-size: 20px;
+}
+.conjunto a{
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    background-color:#343434 ;
+    padding: 5px;
+}
+
+.conjunto a:hover{
+    text-decoration: none;
+    color: #DAA520;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+.conjunto p{
+    text-align: left;
+    word-wrap: break-word;
+    max-width: 400px;
+}
+
+/*estilizando o sonre*/
+
+.corpo3{
+    background-color: #090909;
+}
+.textot{
+    color: #ffffff;
+    background-color: #090909;
+    text-align: center;
+}
+
+.textot2{
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    padding:30px;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.txtxx{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
